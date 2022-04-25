@@ -22,3 +22,11 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
+nav a:hover{
+    color: aqua;
+}
+
+input:hover{
+    border-radius: 30px;
+}
