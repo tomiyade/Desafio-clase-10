@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* COLORES DE FONDO */
+header{
+    background-image: linear-gradient(to right, blue, yellow, red, orange, yellow);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    padding: 20px;
+    margin: 10px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+/* CUANDO PASAS EL CURSOR */
+nav a:hover{
+    color: aqua;
+}
+
+input:hover{
+    border-radius: 30px;
+}
+
+/* SE AGRANDA */
+input:focus{
+    transform: scale(2,2);
+}
+
+/* ROTACION DE COSAS */
+
+.rotar{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    /* transform: rotate(50deg); */
+    transition: 2s;
+}
+
+.rotar:hover{
+    height: 200px;
+    width: 300px;
+}
+
+/* ANIMACIONES */
+
+h2{
+    text-align: center;
+    color: blue;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+/* @keyframes animacion {
+    0%{
+        color: blue;
+        font-size: 32px;
+    }
+    25%{
+        color: yellow;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 100px;
+    }
+    50%{
+        color: purple;
+        transform: rotate(35deg);
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: coral;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: green;
+    }
+} */
