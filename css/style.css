@@ -30,3 +30,13 @@ nav a:hover{
 input:hover{
     border-radius: 30px;
 }
+
+
+h2{
+    text-align: center;
+    color: blue;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
