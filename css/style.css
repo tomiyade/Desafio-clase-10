@@ -36,7 +36,7 @@ h2{
     text-align: center;
     color: blue;
     animation-name: animacion;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
